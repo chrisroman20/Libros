@@ -86,6 +86,7 @@ namespace _Tarea_Libro
             Libro l1 = new Libro("Los juegos del hambre", 2009, new Editorial("Océano","México"));
             l1.AgregarAutor("Suzanne Collins", "Hartford, Connecticut, Estados Unidos", 1962 );
             l1.Imprime();
+                Console.WriteLine("Hasta la proxima");
             Console.ReadKey();
 
             }
